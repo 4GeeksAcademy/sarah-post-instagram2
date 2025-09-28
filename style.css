@@ -1,0 +1,75 @@
+:root { font-family: 'Roboto', sans-serif; }
+html, body { margin: 0; padding: 0; }
+* {box-sizing: border-box;}
+
+.post {
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid #000;
+  background: #fff;
+}
+
+.first-par{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+.left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.first-par .fa-html5 {font-size: 28px; line-height: 1;}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.title h2 {margin: 0; font-weight: 700;}
+.title .name { margin: 0; font-size:  1rem;}
+
+.menu{
+ all: unset;
+  cursor: pointer;
+  position: relative;
+  width: 8px; height: 8px;          
+  background: #000; border-radius: 50%;
+  display: inline-block;
+}
+.menu::before,
+.menu::after{
+  content: "";
+  position: absolute; left: 0;
+  width: 8px; height: 8px;
+  background: #000; border-radius: 50%;
+}
+.menu::before{ top: -12px; }       
+.menu::after{  top:  12px; }
+.post-img {display: block; width: 100%; height: auto;}
+
+.post-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.foot {
+  padding: 3px;
+}
+.foot p {
+  margin: 6px 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 12px;
+}
+.icons .fa-bookmark {
+  margin-left: auto;
+}
