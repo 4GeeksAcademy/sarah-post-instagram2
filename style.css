@@ -1,5 +1,5 @@
 :root { font-family: 'Roboto', sans-serif; }
-html, body { margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; background-color: #000;}
 * {box-sizing: border-box;}
 
 .post {
@@ -32,29 +32,11 @@ html, body { margin: 0; padding: 0; }
 .title h2 {margin: 0; font-weight: 700;}
 .title .name { margin: 0; font-size:  1rem;}
 
-.menu{
- all: unset;
-  cursor: pointer;
-  position: relative;
-  width: 8px; height: 8px;          
-  background: #000; border-radius: 50%;
-  display: inline-block;
-}
-.menu::before,
-.menu::after{
-  content: "";
-  position: absolute; left: 0;
-  width: 8px; height: 8px;
-  background: #000; border-radius: 50%;
-}
-.menu::before{ top: -12px; }       
-.menu::after{  top:  12px; }
-.post-img {display: block; width: 100%; height: auto;}
-
 .post-img {
   display: block;
   width: 100%;
   height: auto;
+  padding: 0.5rem;
 }
 
 .foot {
