@@ -44,6 +44,7 @@ html, body { margin: 0; padding: 0; background-color: #000;}
 }
 .foot p {
   margin: 6px 0;
+  padding: 8px;
 }
 
 .icons {
@@ -51,6 +52,7 @@ html, body { margin: 0; padding: 0; background-color: #000;}
   align-items: center;
   gap: 12px;
   margin: 8px 12px;
+  padding: 3px;
 }
 .icons .fa-bookmark {
   margin-left: auto;
