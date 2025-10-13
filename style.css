@@ -13,7 +13,7 @@ html, body { margin: 0; padding: 0; background-color: #000;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 16px;
+  padding: 12px 20px 22px;
 }
 .left{
   display: flex;
@@ -29,30 +29,38 @@ html, body { margin: 0; padding: 0; background-color: #000;}
   line-height: 1.1;
 }
 
-.title h2 {margin: 0; font-weight: 700;}
+.title h4 {margin:0 0 2px; font-weight: 700;}
 .title .name { margin: 0; font-size:  1rem;}
 
 .post-img {
   display: block;
   width: 100%;
   height: auto;
-  padding: 0.5rem;
+  margin: 0;
 }
 
-.foot {
-  padding: 3px;
+.foot { padding:16px 20px; }
+.foot p { margin:0; }
+
+.foot p.liked { 
+  margin:12px 0 16px; 
+  line-height:1.3;
 }
-.foot p {
-  margin: 6px 0;
-  padding: 8px;
+.foot p.comment {
+  margin-top: 0;        
+  line-height:1.5;
 }
 
 .icons {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 8px 12px;
-  padding: 3px;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:4px 0 12px;     
+  margin:0 0 12px;      
+}
+.icons .fa-regular{
+  font-size:28px;               
+  line-height:1;                
 }
 .icons .fa-bookmark {
   margin-left: auto;
